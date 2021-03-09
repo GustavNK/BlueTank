@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Atmel Studio Solution File, Format Version 11.00
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E66E83B9-2572-4076-B26E-6BE79FF3018A}") = "BlueTankProject", "BlueTankProject\BlueTankProject.cppproj", "{DCE6C7E3-EE26-4D79-826B-08594B9AD897}"
+EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "Controller", "Controller\Controller.cproj", "{064A936A-DB36-41B0-8CCF-406905E89BF3}"
+EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "Tank", "Tank\Tank.cproj", "{7E3DCF92-C72C-4C56-98B3-A717527D2D7C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Debug|AVR.ActiveCfg = Debug|AVR
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Debug|AVR.Build.0 = Debug|AVR
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Release|AVR.ActiveCfg = Release|AVR
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Release|AVR.Build.0 = Release|AVR
+		{064A936A-DB36-41B0-8CCF-406905E89BF3}.Debug|AVR.ActiveCfg = Debug|AVR
+		{064A936A-DB36-41B0-8CCF-406905E89BF3}.Debug|AVR.Build.0 = Debug|AVR
+		{064A936A-DB36-41B0-8CCF-406905E89BF3}.Release|AVR.ActiveCfg = Release|AVR
+		{064A936A-DB36-41B0-8CCF-406905E89BF3}.Release|AVR.Build.0 = Release|AVR
+		{7E3DCF92-C72C-4C56-98B3-A717527D2D7C}.Debug|AVR.ActiveCfg = Debug|AVR
+		{7E3DCF92-C72C-4C56-98B3-A717527D2D7C}.Debug|AVR.Build.0 = Debug|AVR
+		{7E3DCF92-C72C-4C56-98B3-A717527D2D7C}.Release|AVR.ActiveCfg = Release|AVR
+		{7E3DCF92-C72C-4C56-98B3-A717527D2D7C}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
